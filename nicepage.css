@@ -31204,12 +31204,28 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-text-1 {
   font-weight: 700;
   font-size: 3rem;
-  margin: 9px auto 9px 0;
+  margin: 9px 977px 9px 0;
 }
-
-
-
-
+@media (max-width: 1199px) {
+  .u-header .u-text-1 {
+    margin-right: 777px;
+  }
+}
+@media (max-width: 991px) {
+  .u-header .u-text-1 {
+    margin-right: 557px;
+  }
+}
+@media (max-width: 767px) {
+  .u-header .u-text-1 {
+    margin-right: 377px;
+  }
+}
+@media (max-width: 575px) {
+  .u-header .u-text-1 {
+    margin-right: 177px;
+  }
+}
 .u-footer {
   background-image: none;
 }
