@@ -149,13 +149,13 @@
   font-size: 1.25rem;
   font-weight: 700;
   font-family: Ubuntu, sans-serif;
-  margin: 0 auto;
+  margin: 43px auto 0;
 }
 
 .u-section-1 .u-icon-4 {
   height: 48px;
   width: 112px;
-  margin: 27px auto 0;
+  margin: 25px auto 0;
 }
 
 @media (max-width: 1199px) {

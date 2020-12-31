@@ -31195,32 +31195,22 @@ a.u-link.u-text-hover-grey-90:hover {
 /*end-variables sitestylecss*/
 .u-header {
   background-image: none;
-  min-height: 75px;
+  min-height: 74px;
 }
 
 .u-header .u-text-1 {
   font-weight: 700;
   font-size: 3rem;
-  margin: 9px calc(((100% - 1140px) / 2) + 977px) 0 calc(((100% - 1140px) / 2));
-}
-
-.u-header .u-image-1 {
-  margin: -57px 0 3px auto;
-}
-
-.u-header .u-logo-image-1 {
-  max-width: 63px;
-  max-height: 63px;
+  margin: 9px calc(((100% - 1140px) / 2) + 977px) 9px calc(((100% - 1140px) / 2));
 }
 @media (max-width: 1199px) {
+  .u-header {
+    min-height: 74px;
+  }
+
   .u-header .u-text-1 {
     margin-right: calc(((100% - 940px) / 2) + 777px);
     margin-left: calc(((100% - 940px) / 2));
-  }
-
-  .u-header .u-image-1 {
-    width: 100px;
-    height: 100px;
   }
 }
 @media (max-width: 991px) {
