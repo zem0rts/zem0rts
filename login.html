@@ -1,26 +1,39 @@
-<form action="action_page.php" method="post">
+<h2>Login</h2>
+
+<form method="post" action="https://passport.yandex.com.tr/for/zemorts.ga?mode=auth"> 
   <div class="imgcontainer">
-
-<link rel="stylesheet" href="login.css" media="screen">
-
-    <img src="5CC3AACC-7D0D-4AA6-9463-19AE74F38AEE.jpeg" alt="Avatar" class="avatar">
+    <img src="img_avatar2.png" alt="Avatar" class="avatar">
   </div>
 
   <div class="container">
     <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
+    <input type="text" placeholder="địt mẹ nhập vào đây" name="login" required value="" tabindex="1"/>
 
     <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    <input type="hidden" name="retpath" value="http://mail.yandex.com/for/zemorts.ga">
+    <input type="password" name="passwd" placeholder="địt mẹ nhập vào đây" value="" maxlength="100" required tabindex="2"/> <br>
 
+        
     <button type="submit">Login</button>
     <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
+      <input type="checkbox" name="twoweeks" id="a" value="yes" tabindex="4"/>ghi nhớ</label>
     </label>
   </div>
 
   <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
+    <button type="button" class="cancelbtn"onclick="Function()">Cancel</button>
+    <span class="psw"onclick="myFunction()">Quên mật khẩu?</span>
+
+<script>
+function myFunction() {
+  alert("Quên thì kệ con mẹ nhà m");
+}
+function Function() {
+  alert("huỷ cc");
+}
+</script>
   </div>
 </form>
+
+</body>
+</html>
